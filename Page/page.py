@@ -26,7 +26,7 @@ class SearchPage(Base):
     操作页面的元素 ,输入内容
     '''
     def input_text(self,text):
-        print('input')
+
         self.clamator_element(self.input_id).send_keys(text)
 
 
