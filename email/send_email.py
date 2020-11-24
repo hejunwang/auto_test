@@ -47,24 +47,25 @@ class sendEmail:
     def send_email(self):
         # 三个参数：第一个为文本内容，第二个 plain 设置文本格式，第三个 utf-8 设置编码
         message = MIMEMultipart()
-        message['From'] = Header("sender", 'utf-8')  # 发送者
-        message['To'] = Header("receiver", 'utf-8')  # 接收者
 
-        subject = '报告 邮件'
+        message['From'] = Header(self.MAIL_SENDER, 'utf-8')  # 发送者
+        message['To'] = Header(self.MAIL_RECEIVER, 'utf-8')  # 接收者
+
+        # 邮件主题
+        subject = 'auto email report'
         message['Subject'] = Header(subject, 'utf-8')
 
-        message.attach(MIMEText('Python 邮件发送...smtplib.'
-                                , 'plain', 'utf-8'))
 
-        # message['From'] ='hejunwang01@126.com'
-        # message['To'] = 'hejunwang02@126.com'
+        # 邮件文本内容
+        message.attach(MIMEText('Python 邮件发送...smtplib.', 'plain', 'utf-8'))
+
 
         # 附件
         # att1 = MIMEText(open('../testcast/mytest.py','rb').read(),'base64','utf-8')
         #
         # att1["Content-Type"] = 'application/octet-stream'
         # # 这里的filename可以任意写，写什么名字，邮件中显示什么名字
-        # att1["Content-Disposition"] = 'attachment; filename="test.txt"'
+        # att1["Content-Disposition"] = 'attachment; filename="mytest.py"'
         # message.attach(att1)
 
         try:
@@ -72,10 +73,10 @@ class sendEmail:
             smtpObj.connect(self.MAIL_HOST, 25)  # 25 为 SMTP 端口号
             smtpObj.login(self.MAIL_USER, self.MAIL_PASS)
             smtpObj.sendmail(self.MAIL_SENDER, self.MAIL_RECEIVER, message.as_string())
-            print("邮件发送成功")
+            print("email send success")
             smtpObj.quit()
         except smtplib.SMTPException as e:
-            print('"Error: 无法发送邮件"')
+            print('"Error: send email failed :{}'.format(e))
             raise e
 
 
