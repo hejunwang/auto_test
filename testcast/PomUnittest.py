@@ -43,7 +43,7 @@ class pomunittest(unittest.TestCase):
         # 读取配置文件
         config = ConfigParser()
         config.read('../config/config.ini')
-        self.addr = config.get('DEFAUL','url')
+        self.addr = config.get('DEFAULT','url')
         print(self.addr)
 
         
