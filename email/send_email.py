@@ -18,7 +18,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 from email.mime.multipart import MIMEMultipart
-
+import os
 
 class sendEmail:
 
@@ -44,29 +44,52 @@ class sendEmail:
         print("MAIL_RECEIVER:{}".format(self.MAIL_RECEIVER))
 
 
+
+
+    def last_report(self,report_path):
+        '''
+         #获取最新的测试报告
+        :param report_path:
+        :return: file_new
+        '''
+        lists = os.listdir(report_path)
+        print('lists-->{}'.format(lists))
+
+        lists.sort(key=lambda fn:os.path.getmtime(report_path+'\\'+fn))
+        file_new = os.path.join(report_path,lists[-1])
+        return file_new
+
+
     def send_email(self):
-        # 三个参数：第一个为文本内容，第二个 plain 设置文本格式，第三个 utf-8 设置编码
+        '''
+        三个参数：第一个为文本内容，第二个 plain 设置文本格式，第三个 utf-8 设置编码
+        :return:
+        '''
         message = MIMEMultipart()
 
-        message['From'] = Header(self.MAIL_SENDER, 'utf-8')  # 发送者
-        message['To'] = Header(self.MAIL_RECEIVER, 'utf-8')  # 接收者
+        # message['From'] = Header(self.MAIL_SENDER, 'utf-8')  # 发送者
+        message['From'] = self.MAIL_SENDER
+        # message['To'] = Header(self.MAIL_RECEIVER, 'utf-8')  # 接收者
+        message['To'] = self.MAIL_RECEIVER
 
         # 邮件主题
-        subject = 'auto email report'
+        subject = 'POM 设计模式 --report'
         message['Subject'] = Header(subject, 'utf-8')
 
 
         # 邮件文本内容
-        message.attach(MIMEText('Python 邮件发送...smtplib.', 'plain', 'utf-8'))
+        message.attach(MIMEText('Python sendemail 邮件发送...smtplib.report ', 'plain', 'utf-8'))
 
 
-        # 附件
-        # att1 = MIMEText(open('../testcast/mytest.py','rb').read(),'base64','utf-8')
+        lastfile = self.last_report('../Report')
+        print('lastfile:--->{}'.format(lastfile))
+        # 附件内容
+        att1 = MIMEText(open(lastfile,'rb').read(),'base64','utf-8')
         #
-        # att1["Content-Type"] = 'application/octet-stream'
+        att1["Content-Type"] = 'application/octet-stream'
         # # 这里的filename可以任意写，写什么名字，邮件中显示什么名字
-        # att1["Content-Disposition"] = 'attachment; filename="mytest.py"'
-        # message.attach(att1)
+        att1["Content-Disposition"] = 'attachment; filename="lastfile.py文件"'
+        message.attach(att1)
 
         try:
             smtpObj = smtplib.SMTP()
