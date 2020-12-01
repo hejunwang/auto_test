@@ -30,7 +30,6 @@ class MyTestSuit(unittest.TestCase):
 
     def test_case1(self):
 
-
         url = "http://35.215.171.22:5000/bookstore/api/v1/books"
         re = requests.get(url).text
         print(re)
