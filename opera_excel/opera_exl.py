@@ -21,12 +21,14 @@ import os
 class Read_exl:
 
     def __init__(self,filename,param = None):
-
+        '''
+        初始化
+        :param filename:
+        :param param:
+        '''
         self.wb = load_workbook(filename)
-
-        if param==None :
+        if param is None :
             self.tb = self.wb['Sheet1']
-
         if param:
             self.tb =self.wb[param]
 
@@ -37,6 +39,10 @@ class Read_exl:
 
     @property
     def readexcel(self):
+        '''
+        读取文件内容,存到list中
+        :return:
+        '''
         list = []
         for i in range(1,self.tb.max_row):
             list2 = []
@@ -49,14 +55,23 @@ class Read_exl:
         for i in list:
             print(i)
 
-        self.wb.close()
+
         return list
 
 
-    @property
-    def writeexl(self):
-        pass
-        self.tb.cell(row=5,column=1).value='result'
+
+    def writeexl(self,row,column,text):
+        '''
+        写入文件内容
+        :param row:
+        :param column:
+        :param text:
+        :return:
+        '''
+        self.tb.cell(row=row,column=column).value=text
+
+        self.wb.save('../data/dd.xlsx')
+
 
 
 
@@ -67,7 +82,7 @@ if __name__ == '__main__':
     print(path_)
     # ls=Read_exl('../data/dd.xlsx').readexcel()
 
-    Read_exl('../data/dd.xlsx').writeexl
+    Read_exl('../data/dd.xlsx','Sheet3').writeexl(1,5,'result')
 
     ll = Read_exl('../data/dd.xlsx','Sheet2').readexcel
     print('\n')

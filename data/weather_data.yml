@@ -1,0 +1,31 @@
+case1:
+    param:
+      city: 101110101
+    text: '西安'
+
+case2:
+    param:
+      city: 101010100
+    text: 北京
+
+case3:
+    param:
+      city: 101010200
+    text: 海淀
+
+
+case4:
+    param:
+      city: 101010300
+    text: 朝阳
+
+case5:
+    param:
+      city: 101010400
+    text: 顺义
+
+case6:
+    param:
+      city: 101010500
+    text: 怀柔
+

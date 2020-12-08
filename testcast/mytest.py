@@ -30,15 +30,15 @@ class MyTestSuit(unittest.TestCase):
 
     def test_case1(self):
 
-        url = "http://35.215.171.22:5000/bookstore/api/v1/books"
+        url = "http://www.weather.com.cn/data/sk/101190408.html"
         re = requests.get(url).text
         print(re)
         print(type(re))
         # 把json格式字符串转换成python对象
-        resp = jsonpath.jsonpath(json.loads(re),'$.books[0].title')
-        print(resp)
+        # resp = jsonpath.jsonpath(json.loads(re),'$.books[0].title')
+        # print(resp)
 
-        assert '论语' ==resp[0],'判断失败'
+        # assert '论语' ==resp[0],'判断失败'
 
 
 
