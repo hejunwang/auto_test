@@ -32,6 +32,29 @@ class ApiDemo(unittest.TestCase):
     4.输出测试结果
     '''
 
+
+    # 解析读取文件中的字典
+
+    def assigndict(self,kwargs):
+
+        for key ,value in kwargs.items():
+
+            if type(value) is dict:
+                print(value)
+                return self.assigndict(value)
+
+            else:
+                if value:
+                    print(value)
+                    kwargs[key] = getattr(self,key)
+                    print(kwargs[key])
+                else:
+
+                    kwargs[key] = getattr(kwargs,key)
+
+        return kwargs
+
+
     @classmethod
     def setUpClass(cls):
         cls.tmp = None
@@ -47,7 +70,7 @@ class ApiDemo(unittest.TestCase):
 
     @file_data(r'../data/weather_data.yml')
     @unpack
-    def test_1_one(self,**kwargs):
+    def atest_1_one(self,**kwargs):
 
         # 读取数据文件
         # ym_file = open('../data/weather_data.yml','r')
@@ -74,11 +97,6 @@ class ApiDemo(unittest.TestCase):
         text_json = json.loads(res,encoding='utf-8')
         print(text_json)
 
-        print(json.dumps(text_json))
-        print(type(json.dumps(res)))
-
-
-
         res_ret = jsonpath.jsonpath(text_json,'$..city')
         print(res_ret)
 
@@ -86,13 +104,14 @@ class ApiDemo(unittest.TestCase):
         ApiDemo.tmp = res_ret[0]
 
 
-    def test_2_te(self):
 
+    def test_2_te(self):
         print(self.tmp)
 
 
+        dict1 ={'a':{'b':1,'c':2},'d':3,'e':[1,2]}
 
-
+        self.assigndict(dict1)
 
 
 
