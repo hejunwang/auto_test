@@ -70,50 +70,37 @@ class ApiDemo(unittest.TestCase):
 
     @file_data(r'../data/weather_data.yml')
     @unpack
-    def atest_1_one(self,**kwargs):
+    def test_1_one(self,**kwargs):
 
-        # 读取数据文件
-        # ym_file = open('../data/weather_data.yml','r')
-        # ym = yaml.load(ym_file,yaml.FullLoader)
-        # print(ym['city'])
-        # with open(r'../data/weather_data.yml','r') as f:
-        #     tmp = yaml.load(f.read(),yaml.FullLoader)
-        #     print(tmp['case1']['city'])
-        #     print(tmp['case1']['text'])
-        #     city = tmp['case1']['city']
-        #     text = tmp['case1']['text']
+        # 获取参数cityid,参数对应城市
+        cityId =kwargs['param']['city']
+        print('request cityid: %s' %cityId)
 
+        cityText = kwargs['text']
 
-        city =kwargs['param']['city']
-        exc_text = kwargs['text']
         # 拼接数据
-        self.url += str(city)+".html"
+        self.url += str(cityId)+".html"
         print(self.url)
 
         # 测试请求
         res = self.ak.get(url=self.url).text
-
-
         text_json = json.loads(res,encoding='utf-8')
         print(text_json)
 
-        res_ret = jsonpath.jsonpath(text_json,'$..city')
-        print(res_ret)
+        res_ret =self.ak.get_text(text_json,'cityid')
+        print('response cityid : %s' %res_ret)
 
+        # 请求结果校验
+        self.assertEqual(str(cityId),res_ret,'cityid参数和结果对比失败')
 
+        # 这里可以设置公共的变量 作为全局的变量 ,其他接口的依赖
         ApiDemo.tmp = res_ret[0]
 
 
 
-    def test_2_te(self):
+    def test_3(self):
+        # 使用到前面返回的结果 ,作为参数进行传递
         print(self.tmp)
-
-
-        dict1 ={'a':{'b':1,'c':2},'d':3,'e':[1,2]}
-
-        self.assigndict(dict1)
-
-
 
 
 if __name__ == '__main__':
