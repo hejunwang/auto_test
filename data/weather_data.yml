@@ -1,7 +1,7 @@
 case1:
     param:
       city: 101110101
-    text: '西安'
+    text: 西安
 
 case2:
     param:

@@ -11,6 +11,7 @@
 '''
 
 
+import jsonpath
 import requests
 
 class ApiKd:
@@ -34,5 +35,17 @@ class ApiKd:
 
     def update(self):
         pass
+
+
+
+
+    # 从json文件中获取到指定key的 value,返回的是list ,取第一个值
+    def get_text(self,res,text):
+
+        if res is not None:
+            value = jsonpath.jsonpath(res,'$..{0}'.format(text))
+        else:
+            return None
+        return value[0]
 
 

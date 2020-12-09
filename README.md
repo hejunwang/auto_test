@@ -1,9 +1,11 @@
 # auto_test
-1.?????
-2.PO????
-3.?????? config.ini ,email.ini
-4.excel????.
+1.关键字设计模式
+2.PO设计模式
+3.配置文件读取 config.ini ,email.ini
+4.excel文件操作
 5.sendemail
+6.CI集成
+
 
 
 
