@@ -29,7 +29,7 @@ class Read_exl:
         self.wb = load_workbook(filename)
         if param is None :
             self.tb = self.wb['Sheet1']
-        if param:
+        else:
             self.tb =self.wb[param]
 
         print('所有sheetname:{}'.format(self.wb.get_sheet_names()))   #所有的sheetname
@@ -88,3 +88,13 @@ if __name__ == '__main__':
     print('\n')
     for i in ll:
         print(i)
+
+
+    # 写数据到文件中
+    wb = Read_exl('../data/dd.xlsx','Sheet2')
+    print(wb.tb.max_row)
+    print(wb.tb.max_column)
+
+    for i in range(1,wb.tb.max_row+1):
+
+        wb.writeexl(i+1,wb.tb.max_column,i)
