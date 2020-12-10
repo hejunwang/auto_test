@@ -11,7 +11,7 @@
 '''
 
 import unittest
-from Page.page import *
+from Page.searchpage import *
 from ddt import ddt,data,unpack
 import yaml
 from configparser import ConfigParser
@@ -61,13 +61,11 @@ class pomunittest(unittest.TestCase):
             self.assertEqual('http://www.baidu.com1',self.addr,msg='和预期的结果不符合')
 
         except Exception as e:
-            pass
             print('断言失败:{}'.format(e))
             raise e
 
     def test_case1(self):
         try:
-            pass
             self.assertEqual('python3',self.text,msg='断言失败,验证失败')
         except Exception as e:
             print('异常:{}'.format(e))
