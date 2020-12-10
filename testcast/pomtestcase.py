@@ -27,7 +27,9 @@ class PomUnit(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome()
+        # 登录页面page
         cls.lp = LoginPage(cls.driver)
+        # 首页page
         cls.ip = IndexPage(cls.driver)
 
 
@@ -40,6 +42,7 @@ class PomUnit(unittest.TestCase):
     def test_1_(self,**kwargs):
         # 输入账户密码 # 登录确认
         self.lp.login(kwargs['user'], kwargs['passwd'])
+        self.lp.wait_(kwargs['time_'])
         # 登录后,应用切换
         self.ip.index_all()
 
