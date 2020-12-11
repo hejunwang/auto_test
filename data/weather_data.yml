@@ -29,3 +29,96 @@ case6:
       city: 101010500
     text: 怀柔
 
+case7:
+    param:
+      city: 101110101
+    text: 西安
+
+case8:
+    param:
+      city: 101010100
+    text: 北京
+
+case9:
+    param:
+      city: 101010200
+    text: 海淀
+
+
+case10:
+    param:
+      city: 101010300
+    text: 朝阳
+
+case11:
+    param:
+      city: 101010400
+    text: 顺义
+
+case12:
+    param:
+      city: 101010500
+    text: 怀柔
+
+case13:
+    param:
+      city: 101110101
+    text: 西安
+
+case14:
+    param:
+      city: 101010100
+    text: 北京
+
+case15:
+    param:
+      city: 101010200
+    text: 海淀
+
+
+case16:
+    param:
+      city: 101010300
+    text: 朝阳
+
+case17:
+    param:
+      city: 101010400
+    text: 顺义
+
+case18:
+    param:
+      city: 101010500
+    text: 怀柔
+
+
+case19:
+    param:
+      city: 101110101
+    text: 西安
+
+case20:
+    param:
+      city: 101010100
+    text: 北京
+
+case21:
+    param:
+      city: 101010200
+    text: 海淀
+
+case22:
+    param:
+      city: 101010300
+    text: 朝阳
+
+case23:
+    param:
+      city: 101010400
+    text: 顺义
+
+case24:
+    param:
+      city: 101010500
+    text: 怀柔
+

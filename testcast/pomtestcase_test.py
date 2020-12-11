@@ -38,13 +38,17 @@ class PomUnit(unittest.TestCase):
         cls.driver.quit()
 
 
+
     @file_data('../data/userinfo.yaml')
     def test_1_(self,**kwargs):
+        # 业务流程: 登录--> 应用切换-->发送邮件 -->接受邮件
         # 输入账户密码 # 登录确认
         self.lp.login(kwargs['user'], kwargs['passwd'])
         self.lp.wait_(kwargs['time_'])
         # 登录后,应用切换
         self.ip.index_all()
+        self.ip.wait_(kwargs['time_'])
+
 
 
 

@@ -28,17 +28,6 @@ class ApiKd:
         return  requests.post(url,headers=headers ,data = data)
 
 
-    def put(self):
-
-        pass
-
-
-    def update(self):
-        pass
-
-
-
-
     # 从json文件中获取到指定key的 value,返回的是list ,取第一个值
     def get_text(self,res,text):
 

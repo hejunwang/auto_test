@@ -16,8 +16,6 @@ from Api.Api_keyd import *
 import unittest
 from ddt import ddt,data,file_data,unpack
 import configparser
-import yaml
-import jsonpath
 import json
 
 
@@ -31,8 +29,6 @@ class ApiDemo(unittest.TestCase):
     3.通过ddt数据驱动,执行测试用例, 包括里面接口的关联
     4.输出测试结果
     '''
-
-
     # 解析读取文件中的字典
 
     def assigndict(self,kwargs):
@@ -100,7 +96,7 @@ class ApiDemo(unittest.TestCase):
 
     def test_3(self):
         # 使用到前面返回的结果 ,作为参数进行传递
-        print(self.tmp)
+        print('这里依赖了前一个case的返回 :{}'.format(self.tmp))
 
 
 if __name__ == '__main__':
