@@ -33,12 +33,32 @@ class IndexPage(BasePage):
         self.click_(self.appcenter)
 
 
+    # 集成所有
     def index_all(self):
         self.app_send()
         self.wait_(2)
         self.center()
 
 
+    # def assert_result(self,first,second):
+    #     res = False
+    #     if first ==second:
+    #         res = True
+    #         return res
+    #     else:
+    #
+    #         import os,time
+    #         currentPath = os.getcwd()  # 当前目录
+    #         parent_path = os.path.dirname(currentPath)  # 将当前目录传入得到当前目录的父目录
+    #         img_path = os.path.join(parent_path, 'img')
+    #         print(img_path)
+    #         current_time = time.strftime('%Y-%m-%d-%H%I%M', time.localtime(time.time()))
+    #         file_name = os.path.join(img_path, current_time + ".png")
+    #
+    #         self.get_screenshot_file(file_name)
+    #
+    #         return False
+    #
 
 
 

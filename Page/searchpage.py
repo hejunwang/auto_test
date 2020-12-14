@@ -38,28 +38,22 @@ class SearchPage(BasePage):
         self.clamator_element(self.click_id).click()
 
 
+
+
     '''
     自测验证
     '''
-    def search(self):
+    def search(self,url,text):
+        self.open(url)
+        self.input_text(text)
+        self.click()
 
-        text = 'python'
-        sp.open()
-        sp.input_text(text)
-        sp.click()
-        sp.quit()
 
 
 if __name__ == '__main__':
     url = 'http://www.baidu.com'
-
+    text ='math'
     driver = webdriver.Chrome()
-    sp = SearchPage(driver, url)
-    sp.open()
-    sleep(5)
-
-    sp.input_text('python')
-    sp.click()
-    sp.quit()
-
+    sp =SearchPage(driver)
+    sp.search(url,text)
 

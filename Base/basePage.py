@@ -18,6 +18,7 @@ class BasePage:
     init 初始化
     '''
     def __init__(self,driver):
+        # driver = webdriver.Chrome()
         self.driver = driver
         self.driver.implicitly_wait(10)
 
@@ -66,3 +67,7 @@ class BasePage:
     "获取当前地址"
     def get_currenturl(self):
         return self.driver.current_url
+
+    # 截图返回file文件
+    def get_screenshot_file(self,filename):
+        self.driver.get_screenshot_as_file(filename=filename)
