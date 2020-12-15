@@ -1,0 +1,72 @@
+git init   
+添加GitHub远程仓库  
+git remote add origin https://github.com/hejunwang/auto_test.git      //https
+git remote add origin git@github.com:hejunwang/auto_test.git          //ssh
+git remote add origin http://t.istester.com:3000/hejunwang/test2.git
+
+远程仓库有变更,可以使用更新远程仓库 命令
+git remote -v     查看原生仓库
+git remote set-url origin https://git.xxxxxxxxx.git  
+
+先查看下本地是在哪个分支上  ,然后创建一个和远程一样main或者是master 
+git branch
+
+
+
+第一步：是使用 git add 把文件添加进去，实际上就是把文件添加到暂存区。
+git add  .          //添加当前所有文件到暂存区 
+
+git  status     
+
+第二步：使用git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支上。
+
+git  commit -m  "这里写的是注释"        //把文件提交到本地仓库中
+
+
+先查看下本地是在哪个分支上  
+git branch
+
+推送到远程master ,dev  
+git push origin master/dev
+
+如果是首次推送使用  -u 
+git push -u origin master/dev
+
+
+合并某分支到当前分支： 首先要合并的主干上 ,合并完后,仍然要add ,然后 commit  ,push 到远程仓库中
+git checkout master  
+
+git merge  branchname      //要合并的分支的名称
+git add .  
+git commit -m "xxxx"  
+git push origin main
+
+
+下载clone 远程仓库代码
+git clone  https://github.com/hejunwang/auto_test.git   
+
+
+总结创建与合并分支命令如下：
+查看分支：git branch
+创建分支：git branch name
+切换分支：git checkout name
+创建+切换分支：git checkout –b name
+
+合并某分支到当前分支：git merge name
+
+删除分支：git branch –d name
+
+Google cloud platform  
+flask  : 
+
+http://35.215.171.22:5000/bookstore/api/v1/books
+
+http://35.215.171.22:5000/bookstore/api/v1/books/1
+
+
+hejunwang01@126.com     WWQZFBZCEKDXHZDX
+hejunwang02@126.com     CDDEHUGOTSNVOXQV
+qq邮箱					qmttxdgsexozbibh
+ 
+
+

@@ -1,0 +1,32 @@
+[2020-12-15 10:03:21,999] | mylog.py |INFO  : setUpClass
+[2020-12-15 10:03:22,004] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,072] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,126] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,199] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,288] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,337] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,628] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,726] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,764] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,819] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,849] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,885] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,948] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:22,987] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:23,024] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:23,072] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:23,126] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:23,160] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:23,196] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:23,251] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:23,283] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:23,312] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:23,344] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:23,376] | mylog.py |INFO  : test_1_one start
+[2020-12-15 10:03:23,406] | mylog.py |DEBUG : this is test 3
+[2020-12-15 10:38:41,466]|INFO  : setUpClass
+[2020-12-15 10:39:02,349]|INFO  : tearDownClass
+[2020-12-15 10:40:50,292]|INFO  : setUpClass
+[2020-12-15 10:40:54,571]|INFO  : testing 中的测试日志打印 
+[2020-12-15 10:41:08,999]|INFO  : testing 中的测试日志打印 
+[2020-12-15 10:41:18,056]|INFO  : tearDownClass

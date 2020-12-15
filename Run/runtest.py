@@ -21,7 +21,12 @@ import unittest
 
 from BeautifulReport import BeautifulReport
 from emailsend.send_email import sendEmail
-import time,os
+import time,os,sys
+
+sys.path.append('../')
+
+
+
 
 currentPath = os.getcwd()  # 当前目录
 parent_path = os.path.dirname(currentPath)  #将当前目录传入得到当前目录的父目录

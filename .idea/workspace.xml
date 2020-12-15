@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a0f191a-d02e-4d6a-9ea9-1ce9c68a89ea" name="Default" comment="整体执行 ,发送邮件&#10;修改部分代码">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Run/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/search.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/basePage.py" afterPath="$PROJECT_DIR$/Base/basePage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/indexpage.py" afterPath="$PROJECT_DIR$/Page/indexpage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/searchpage.py" afterPath="$PROJECT_DIR$/Page/searchpage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcast/PomUnit.py" afterPath="$PROJECT_DIR$/testcast/PomUnit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcast/pomtestcase_test.py" afterPath="$PROJECT_DIR$/testcast/pomtestcase_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/autotest_code.iml" afterPath="$PROJECT_DIR$/.idea/autotest_code.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Run/runtest.py" afterPath="$PROJECT_DIR$/Run/runtest.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,16 +17,17 @@
     <SUITE FILE_PATH="coverage/autotest_code$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1607061291673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_pomtestcase_py.coverage" NAME="Unittests in pomtestcase.py Coverage Results" MODIFIED="1607668071314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$opera_exl.coverage" NAME="opera_exl Coverage Results" MODIFIED="1607494575469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opera_excel" />
-    <SUITE FILE_PATH="coverage/autotest_code$runtest.coverage" NAME="runtest Coverage Results" MODIFIED="1607944357702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Run" />
+    <SUITE FILE_PATH="coverage/autotest_code$runtest.coverage" NAME="runtest Coverage Results" MODIFIED="1608002128628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Run" />
     <SUITE FILE_PATH="coverage/autotest_code$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1606221795908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/email" />
     <SUITE FILE_PATH="coverage/autotest_code$loginpage.coverage" NAME="loginpage Coverage Results" MODIFIED="1607590582933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/autotest_code$test_single.coverage" NAME="test_single Coverage Results" MODIFIED="1605944717923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_PomUnit_py.coverage" NAME="Unittests in PomUnit.py Coverage Results" MODIFIED="1607944188948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$page.coverage" NAME="page Coverage Results" MODIFIED="1605599307179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_for_mytest_MyTestSuit_test_case1.coverage" NAME="Unittests for mytest.MyTestSuit.test_case1 Coverage Results" MODIFIED="1605188735994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
-    <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_pomtestcase_test_py.coverage" NAME="Unittests in pomtestcase_test.py Coverage Results" MODIFIED="1607944274849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
+    <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_pomtestcase_test_py.coverage" NAME="Unittests in pomtestcase_test.py Coverage Results" MODIFIED="1608000275226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_classdemoUnit_py.coverage" NAME="Unittests in classdemoUnit.py Coverage Results" MODIFIED="1605939698516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_ApiCase_py.coverage" NAME="Unittests in ApiCase_test.py Coverage Results" MODIFIED="1607672886716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
+    <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_ApiCase_test_py.coverage" NAME="Unittests in ApiCase_test.py Coverage Results" MODIFIED="1608000370813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$searchpage.coverage" NAME="searchpage Coverage Results" MODIFIED="1607942899316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/autotest_code$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1605957637883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_for_PomUnittest_pomunittest.coverage" NAME="Unittests for PomUnittest.pomunittest Coverage Results" MODIFIED="1605932195838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
@@ -40,18 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="indexpage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page/indexpage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="50" column="14" lean-forward="false" selection-start-line="50" selection-start-column="14" selection-end-line="57" selection-end-column="49" />
-              <folding>
-                <element signature="e#247#281#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="basePage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Base/basePage.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pomtestcase_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pomtestcase_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcast/pomtestcase_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="1106">
+              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
                 <element signature="e#250#265#0" expanded="true" />
               </folding>
@@ -74,10 +59,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mylog.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/mylog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-210">
+              <caret line="83" column="29" lean-forward="false" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+              <folding>
+                <element signature="e#242#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/email.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="searchpage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Page/searchpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="918">
               <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
@@ -88,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/testcast/PomUnit.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="84" column="28" lean-forward="true" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+              <caret line="84" column="28" lean-forward="false" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
               <folding>
                 <element signature="e#248#263#0" expanded="true" />
               </folding>
@@ -96,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runtest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="runtest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Run/runtest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#284#299#0" expanded="true" />
               </folding>
@@ -111,21 +118,11 @@
       <file leaf-file-name="ApiCase_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcast/ApiCase_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-764">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="81" column="39" lean-forward="false" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
               <folding>
                 <element signature="e#244#270#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/search.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="10" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -175,15 +172,16 @@
         <option value="$PROJECT_DIR$/testcast/ApiCase.py" />
         <option value="$PROJECT_DIR$/Api/Api_keyd.py" />
         <option value="$PROJECT_DIR$/data/weather_data.yml" />
-        <option value="$PROJECT_DIR$/testcast/ApiCase_test.py" />
         <option value="$PROJECT_DIR$/emailsend/send_email.py" />
-        <option value="$PROJECT_DIR$/Run/runtest.py" />
         <option value="$PROJECT_DIR$/Base/basePage.py" />
         <option value="$PROJECT_DIR$/Page/indexpage.py" />
-        <option value="$PROJECT_DIR$/testcast/pomtestcase_test.py" />
         <option value="$PROJECT_DIR$/data/search.yaml" />
         <option value="$PROJECT_DIR$/Page/searchpage.py" />
         <option value="$PROJECT_DIR$/testcast/PomUnit.py" />
+        <option value="$PROJECT_DIR$/testcast/ApiCase_test.py" />
+        <option value="$PROJECT_DIR$/testcast/pomtestcase_test.py" />
+        <option value="$PROJECT_DIR$/log/mylog.py" />
+        <option value="$PROJECT_DIR$/Run/runtest.py" />
       </list>
     </option>
   </component>
@@ -272,6 +270,16 @@
               <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="autotest_code" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest_code" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest_code" type="462c0819:PsiDirectoryNode" />
+              <item name="logdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
@@ -594,10 +602,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.runtest" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in pomtestcase_test.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in PomUnit.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.searchpage" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in ApiCase_test.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ApiCase_test.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in pomtestcase_test.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in PomUnit.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.searchpage" />
       </list>
     </recent_temporary>
   </component>
@@ -759,24 +767,22 @@
       <option name="project" value="LOCAL" />
       <updated>1607673576076</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="代码中增加了log的打印&#10;readme的相关补充">
+      <created>1608001707674</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608001707675</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_PomUnit_py - 2020.12.14 at 18h 35m 01s.xml">
-      <configuration name="Unittests in PomUnit.py" configurationId="tests" />
+    <history-entry file="Unittests_in_ApiCase_test_py - 2020.12.15 at 10h 03m 23s.xml">
+      <configuration name="Unittests in ApiCase_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PomUnit_py - 2020.12.14 at 18h 44m 40s.xml">
-      <configuration name="Unittests in PomUnit.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_PomUnit_py - 2020.12.14 at 18h 49m 35s.xml">
-      <configuration name="Unittests in PomUnit.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_PomUnit_py - 2020.12.14 at 18h 53m 18s.xml">
-      <configuration name="Unittests in PomUnit.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_PomUnit_py - 2020.12.14 at 18h 54m 49s.xml">
-      <configuration name="Unittests in PomUnit.py" configurationId="tests" />
+    <history-entry file="Unittests_in_ApiCase_test_py - 2020.12.15 at 10h 46m 12s.xml">
+      <configuration name="Unittests in ApiCase_test.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_PomUnit_py - 2020.12.14 at 18h 57m 52s.xml">
       <configuration name="Unittests in PomUnit.py" configurationId="tests" />
@@ -793,12 +799,20 @@
     <history-entry file="Unittests_in_pomtestcase_test_py - 2020.12.14 at 19h 11m 43s.xml">
       <configuration name="Unittests in pomtestcase_test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_pomtestcase_test_py - 2020.12.15 at 10h 39m 04s.xml">
+      <configuration name="Unittests in pomtestcase_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_pomtestcase_test_py - 2020.12.15 at 10h 41m 20s.xml">
+      <configuration name="Unittests in pomtestcase_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_pomtestcase_test_py - 2020.12.15 at 10h 45m 07s.xml">
+      <configuration name="Unittests in pomtestcase_test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2274678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2274678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -874,7 +888,8 @@
     <MESSAGE value="解析json字段的内容" />
     <MESSAGE value="POM设计模式企业级内部使用封装方式" />
     <MESSAGE value="整体执行 ,发送邮件&#10;修改部分代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="整体执行 ,发送邮件&#10;修改部分代码" />
+    <MESSAGE value="代码中增加了log的打印&#10;readme的相关补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码中增加了log的打印&#10;readme的相关补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -883,27 +898,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/email.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opera_excel/opera_exl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emailsend/send_email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/email.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -964,13 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/email.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newtext.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -983,6 +970,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,14 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Api_keyd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1111,30 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/userinfo.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/search.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/searchpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/2020-12-14-18065721.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1175,30 +1131,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Run/runtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#284#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcast/PomUnit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="84" column="28" lean-forward="true" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+          <caret line="84" column="28" lean-forward="false" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
           <folding>
             <element signature="e#248#263#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/search.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="1924" column="4" lean-forward="false" selection-start-line="1924" selection-start-column="4" selection-end-line="1924" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/userinfo.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logdata/2020-12-15.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/email.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/searchpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/mylog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="83" column="29" lean-forward="false" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+          <folding>
+            <element signature="e#242#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Api_keyd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcast/ApiCase_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-764">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="81" column="39" lean-forward="false" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
           <folding>
             <element signature="e#244#270#0" expanded="true" />
           </folding>
@@ -1207,10 +1219,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcast/pomtestcase_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="1106">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
             <element signature="e#250#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Run/runtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#284#299#0" expanded="true" />
           </folding>
         </state>
       </provider>
