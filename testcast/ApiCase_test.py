@@ -17,6 +17,7 @@ import unittest
 from ddt import ddt,data,file_data,unpack
 import configparser
 import json
+from log.mylog import Log
 
 
 @ddt
@@ -63,10 +64,13 @@ class ApiDemo(unittest.TestCase):
 
         cls.ak = ApiKd()
 
+        Log().info('setUpClass')
+
 
     @file_data(r'../data/weather_data.yml')
     @unpack
     def test_1_one(self,**kwargs):
+        Log().info('test_1_one start')
 
         # 获取参数cityid,参数对应城市
         cityId =kwargs['param']['city']
@@ -95,6 +99,7 @@ class ApiDemo(unittest.TestCase):
 
 
     def test_3(self):
+        Log().debug('this is test 3')
         # 使用到前面返回的结果 ,作为参数进行传递
         print('这里依赖了前一个case的返回 :{}'.format(self.tmp))
 

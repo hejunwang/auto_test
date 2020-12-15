@@ -21,13 +21,14 @@ from ddt import ddt,file_data
 import os,time
 
 
-
+from log.mylog import Log
 
 @ddt
 class PomUnit(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
+        Log().info('setUpClass')
         # 这里使用了无头配置的option
         option = webdriver.ChromeOptions()
         option.add_argument('headless')
@@ -41,6 +42,7 @@ class PomUnit(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
+        Log().info('tearDownClass')
         cls.driver.quit()
 
 
@@ -63,7 +65,8 @@ class PomUnit(unittest.TestCase):
     #     self.driver.get_screenshot_as_file(filename=filename)
 
     def test_1(self):
-        print('测试的异常,异常后 ,再退出的时间 ,会执行teardown ,然后再进行截图 ')
+
+        Log().info('testing 中的测试日志打印 ')
         self.assertEqual(1, 2, '我是个异常验证')
 
 
@@ -75,18 +78,13 @@ class PomUnit(unittest.TestCase):
         # 输入账户密码 # 登录确认
         self.lp.login(kwargs['user'], kwargs['passwd'])
         self.lp.wait_(kwargs['time_'])
-
+        Log().info('testing 中的测试日志打印 ')
         # 登录后,应用切换
         self.ip.index_all()
         self.ip.wait_(kwargs['time_'])
 
         print('无头页面模式也是可以正常的进行测试,我增加一点测试的异常看下')
         self.assertEqual(1, 1, '我是个异常验证')
-
-
-
-
-
 
 
 if __name__ == '__main__':
