@@ -13,7 +13,7 @@
 import unittest
 from Page.searchpage import *
 from ddt import ddt,data,unpack,file_data
-import yaml
+
 from configparser import ConfigParser
 
 import time,os

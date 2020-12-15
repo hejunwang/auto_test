@@ -26,12 +26,10 @@ import time,os,sys
 sys.path.append('../')
 
 
-
-
 currentPath = os.getcwd()  # 当前目录
 parent_path = os.path.dirname(currentPath)  #将当前目录传入得到当前目录的父目录
 
-def addcase():
+def runstart():
     # 配置case地址和报告地址
     case_dir = os.path.join(parent_path,'testcast')
     report_path= os.path.join(parent_path,'Report')
@@ -57,4 +55,4 @@ def addcase():
 
 
 if __name__ == '__main__':
-    addcase()
+    runstart()

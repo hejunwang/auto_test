@@ -11,10 +11,10 @@
 '''
 
 
-from Api.Api_keyd import *
+from api.api_keyd import *
 
 import unittest
-from ddt import ddt,data,file_data,unpack
+from ddt import ddt,file_data,unpack
 import configparser
 import json
 from log.mylog import Log
