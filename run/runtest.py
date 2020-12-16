@@ -18,12 +18,19 @@
 # 发送中测试报告
 
 import unittest
+import time,os,sys
+
+sys.path.append(os.path.abspath(os.path.dirname(__file__)+os.path.sep+".."))
+
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+
 
 from BeautifulReport import BeautifulReport
 from emailsend.send_email import sendEmail
-import time,os,sys
 
-sys.path.append('../')
+
+
 
 
 currentPath = os.getcwd()  # 当前目录

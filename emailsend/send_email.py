@@ -37,11 +37,11 @@ class sendEmail:
         self.MAIL_SENDER=conf.get('DEFAULT','MAIL_SENDER')
         self.MAIL_RECEIVER =conf.get('DEFAULT','MAIL_RECEIVER')
 
-        print("MAIL_HOST:{}".format(self.MAIL_HOST))
-        print("MAIL_USER:{}".format(self.MAIL_USER))
-        print("MAIL_PASS:{}".format(self.MAIL_PASS))
-        print("MAIL_SENDER:{}".format(self.MAIL_SENDER))
-        print("MAIL_RECEIVER:{}".format(self.MAIL_RECEIVER))
+        # print("MAIL_HOST:{}".format(self.MAIL_HOST))
+        # print("MAIL_USER:{}".format(self.MAIL_USER))
+        # print("MAIL_PASS:{}".format(self.MAIL_PASS))
+        # print("MAIL_SENDER:{}".format(self.MAIL_SENDER))
+        # print("MAIL_RECEIVER:{}".format(self.MAIL_RECEIVER))
 
 
 
@@ -78,7 +78,7 @@ class sendEmail:
 
 
         # 邮件文本内容
-        message.attach(MIMEText('Python api 接口 - sendemail 邮件发送...smtplib.report ', 'plain', 'utf-8'))
+        message.attach(MIMEText('Python API/UI 接口 - sendemail 邮件发送...smtplib.report ', 'plain', 'utf-8'))
 
         parent_path = os.path.dirname(os.getcwd())  # 将当前目录传入得到当前目录的父目录
         report_path = os.path.join(parent_path, 'Report')
