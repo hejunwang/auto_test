@@ -13,6 +13,7 @@
 
 import jsonpath
 import requests
+from time import sleep
 
 class ApiKd:
     '''
@@ -28,13 +29,28 @@ class ApiKd:
         return  requests.post(url,headers=headers ,data = data)
 
 
-    # 从json文件中获取到指定key的 value,返回的是list ,取第一个值
-    def get_text(self,res,text):
 
+    def get_text(self,res,text):
+        '''
+        从res  text json中 提取key text 对应的值
+        :param res:
+        :param text:
+        :return:
+        '''
         if res is not None:
             value = jsonpath.jsonpath(res,'$..{0}'.format(text))
         else:
             return None
         return value[0]
+
+
+    def wait(self,time_):
+        '''
+        强制等待时间
+        :param time_:
+        :return:
+        '''
+        sleep(time_)
+
 
 

@@ -1,0 +1,41 @@
+-
+  param:
+    name: xiaoming
+    pwd:  111
+  code: 200
+
+-
+  param:
+    name: xiaoming
+    pwd:  1112
+  code: -1
+
+-
+  param:
+    name: xiaomin
+    pwd:  111
+  code: -1
+
+
+-
+  param:
+    name: xiaoming2
+    pwd:  1112
+  code: -1
+
+-
+  param:
+    name: ''
+    pwd:  123
+  code: 10001
+
+-
+  param:
+    name: xiaoming
+    pwd: ''
+  code: 10001
+-
+  param:
+    name: ''
+    pwd: ''
+  code: 10001
