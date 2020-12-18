@@ -11,7 +11,7 @@
 '''
 
 
-import jsonpath
+import jsonpath,json
 import requests
 from time import sleep
 
@@ -38,6 +38,7 @@ class ApiKd:
         :return:
         '''
         if res is not None:
+            res = json.loads(res)
             value = jsonpath.jsonpath(res,'$..{0}'.format(text))
         else:
             return None

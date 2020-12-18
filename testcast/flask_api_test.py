@@ -33,7 +33,8 @@ class FlaskApiUnit(unittest.TestCase):
         urlconf.read(r'../config/config.ini')
         cls.url = urlconf.get('FLASK_API','url')
         cls.ak = ApiKd()
-
+        cls.headers = {'user-agent':
+                       'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'}
 
 
     @file_data('../data/login_flask.yaml')
@@ -42,20 +43,22 @@ class FlaskApiUnit(unittest.TestCase):
         # 地址的拼接 u
         name = kwargs['param']['name']
         pwd = kwargs['param']['pwd']
+
         assertcode  =kwargs['code']
         print(name)
         print(pwd)
         print(assertcode)
+        print(self.headers)
 
         self.url = self.url+'name='+str(name)+'&pwd='+str(pwd)
         print('拼接后的地址 :'+self.url)
 
         # '地址请求'
-        res = self.ak.get(self.url).text
+        res = self.ak.get(self.url,self.headers).text
         self.ak.wait(2)
         # '解析返回的code'
-        code =self.ak.get_text(json.loads(res),'code')
-        message =self.ak.get_text(json.loads(res),'message')
+        code =self.ak.get_text(res,'code')
+        message =self.ak.get_text(res,'message')
 
         print(code)
         print(message)

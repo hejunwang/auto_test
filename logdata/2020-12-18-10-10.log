@@ -1,0 +1,56 @@
+[2020-12-18 10:28:08,692]|INFO  : setUpClass
+[2020-12-18 10:28:08,695]|INFO  : test_1_one start
+[2020-12-18 10:28:08,754]|INFO  : test_1_one start
+[2020-12-18 10:28:08,782]|INFO  : test_1_one start
+[2020-12-18 10:28:08,806]|INFO  : test_1_one start
+[2020-12-18 10:28:08,838]|INFO  : test_1_one start
+[2020-12-18 10:28:08,871]|INFO  : test_1_one start
+[2020-12-18 10:28:08,900]|INFO  : test_1_one start
+[2020-12-18 10:28:08,924]|INFO  : test_1_one start
+[2020-12-18 10:28:08,951]|INFO  : test_1_one start
+[2020-12-18 10:28:08,975]|INFO  : test_1_one start
+[2020-12-18 10:28:09,001]|INFO  : test_1_one start
+[2020-12-18 10:28:09,037]|INFO  : test_1_one start
+[2020-12-18 10:28:09,063]|INFO  : test_1_one start
+[2020-12-18 10:28:09,094]|INFO  : test_1_one start
+[2020-12-18 10:28:09,125]|INFO  : test_1_one start
+[2020-12-18 10:28:09,156]|INFO  : test_1_one start
+[2020-12-18 10:28:09,188]|INFO  : test_1_one start
+[2020-12-18 10:28:09,214]|INFO  : test_1_one start
+[2020-12-18 10:28:09,253]|INFO  : test_1_one start
+[2020-12-18 10:28:09,279]|INFO  : test_1_one start
+[2020-12-18 10:28:09,311]|INFO  : test_1_one start
+[2020-12-18 10:28:09,346]|INFO  : test_1_one start
+[2020-12-18 10:28:09,377]|INFO  : test_1_one start
+[2020-12-18 10:28:09,406]|INFO  : test_1_one start
+[2020-12-18 10:28:09,437]|DEBUG : this is test 3
+[2020-12-18 10:28:23,538]|INFO  : setUpClass
+[2020-12-18 10:28:30,461]|INFO  : testing 中的测试日志打印 
+[2020-12-18 10:28:43,639]|INFO  : testing 中的测试日志打印 
+[2020-12-18 10:28:51,118]|INFO  : tearDownClass
+[2020-12-18 10:56:34,605]|INFO  : setUpClass
+[2020-12-18 10:56:34,607]|INFO  : test_1_one start
+[2020-12-18 10:56:34,679]|INFO  : test_1_one start
+[2020-12-18 10:56:34,718]|INFO  : test_1_one start
+[2020-12-18 10:56:34,747]|INFO  : test_1_one start
+[2020-12-18 10:56:34,775]|INFO  : test_1_one start
+[2020-12-18 10:56:34,802]|INFO  : test_1_one start
+[2020-12-18 10:56:34,827]|INFO  : test_1_one start
+[2020-12-18 10:56:34,856]|INFO  : test_1_one start
+[2020-12-18 10:56:34,885]|INFO  : test_1_one start
+[2020-12-18 10:56:34,911]|INFO  : test_1_one start
+[2020-12-18 10:56:34,943]|INFO  : test_1_one start
+[2020-12-18 10:56:34,969]|INFO  : test_1_one start
+[2020-12-18 10:56:34,998]|INFO  : test_1_one start
+[2020-12-18 10:56:35,023]|INFO  : test_1_one start
+[2020-12-18 10:56:35,051]|INFO  : test_1_one start
+[2020-12-18 10:56:35,080]|INFO  : test_1_one start
+[2020-12-18 10:56:35,109]|INFO  : test_1_one start
+[2020-12-18 10:56:35,134]|INFO  : test_1_one start
+[2020-12-18 10:56:35,169]|INFO  : test_1_one start
+[2020-12-18 10:56:35,201]|INFO  : test_1_one start
+[2020-12-18 10:56:35,232]|INFO  : test_1_one start
+[2020-12-18 10:56:35,262]|INFO  : test_1_one start
+[2020-12-18 10:56:35,304]|INFO  : test_1_one start
+[2020-12-18 10:56:35,334]|INFO  : test_1_one start
+[2020-12-18 10:56:35,370]|DEBUG : this is test 3

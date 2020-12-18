@@ -1,0 +1,30 @@
+[2020-12-18 13:02:30,011]|INFO  : setUpClass
+[2020-12-18 13:02:30,013]|INFO  : test_1_one start
+[2020-12-18 13:02:30,100]|INFO  : test_1_one start
+[2020-12-18 13:02:30,128]|INFO  : test_1_one start
+[2020-12-18 13:02:30,159]|INFO  : test_1_one start
+[2020-12-18 13:02:30,204]|INFO  : test_1_one start
+[2020-12-18 13:02:30,237]|INFO  : test_1_one start
+[2020-12-18 13:02:30,263]|INFO  : test_1_one start
+[2020-12-18 13:02:30,290]|INFO  : test_1_one start
+[2020-12-18 13:02:30,316]|INFO  : test_1_one start
+[2020-12-18 13:02:30,346]|INFO  : test_1_one start
+[2020-12-18 13:02:30,376]|INFO  : test_1_one start
+[2020-12-18 13:02:30,414]|INFO  : test_1_one start
+[2020-12-18 13:02:30,446]|INFO  : test_1_one start
+[2020-12-18 13:02:30,474]|INFO  : test_1_one start
+[2020-12-18 13:02:30,503]|INFO  : test_1_one start
+[2020-12-18 13:02:30,529]|INFO  : test_1_one start
+[2020-12-18 13:02:30,559]|INFO  : test_1_one start
+[2020-12-18 13:02:30,588]|INFO  : test_1_one start
+[2020-12-18 13:02:30,617]|INFO  : test_1_one start
+[2020-12-18 13:02:30,646]|INFO  : test_1_one start
+[2020-12-18 13:02:30,674]|INFO  : test_1_one start
+[2020-12-18 13:02:30,702]|INFO  : test_1_one start
+[2020-12-18 13:02:30,730]|INFO  : test_1_one start
+[2020-12-18 13:02:30,760]|INFO  : test_1_one start
+[2020-12-18 13:02:30,797]|DEBUG : this is test 3
+[2020-12-18 13:02:44,905]|INFO  : setUpClass
+[2020-12-18 13:02:48,981]|INFO  : testing 中的测试日志打印 
+[2020-12-18 13:03:03,687]|INFO  : testing 中的测试日志打印 
+[2020-12-18 13:03:10,035]|INFO  : tearDownClass
