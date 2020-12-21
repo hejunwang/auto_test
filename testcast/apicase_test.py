@@ -84,10 +84,10 @@ class ApiDemo(unittest.TestCase):
 
         # 测试请求
         res = self.ak.get(url=self.url).text
-        text_json = json.loads(res,encoding='utf-8')
-        print(text_json)
+        # text_json = json.loads(res,encoding='utf-8')
+        # print(text_json)
 
-        res_ret =self.ak.get_text(text_json,'cityid')
+        res_ret =self.ak.get_text(res,'cityid')
         print('response cityid : %s' %res_ret)
 
         # 请求结果校验

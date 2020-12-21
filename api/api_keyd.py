@@ -32,7 +32,8 @@ class ApiKd:
 
     def get_text(self,res,text):
         '''
-        从res  text json中 提取key text 对应的值
+        从res是text
+        从中 提取key   value 对应的值
         :param res:
         :param text:
         :return:
