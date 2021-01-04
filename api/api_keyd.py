@@ -30,7 +30,7 @@ class ApiKd:
 
 
 
-    def get_text(self,res,text):
+    def get_text(self,res_string,key):
         '''
         从res是text
         从中 提取key   value 对应的值
@@ -38,9 +38,9 @@ class ApiKd:
         :param text:
         :return:
         '''
-        if res is not None:
-            res = json.loads(res)
-            value = jsonpath.jsonpath(res,'$..{0}'.format(text))
+        if res_string is not None:
+            res = json.loads(res_string)
+            value = jsonpath.jsonpath(res,'$..{0}'.format(key))
         else:
             return None
         return value[0]

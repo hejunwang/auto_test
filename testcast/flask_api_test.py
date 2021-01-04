@@ -66,6 +66,11 @@ class FlaskApiUnit(unittest.TestCase):
         # 校验
         self.assertEqual(code,assertcode)
 
+
+
+
+
+
 if __name__ == '__main__':
     unittest.main()
 

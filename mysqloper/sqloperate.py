@@ -15,15 +15,28 @@ import pymysql
 class MySql_DB:
 
     def __init__(self):
-        pass
+        self.db = pymysql.connect('ip','user','pwd','db')
+        self.coursor = self.db.cursor()
 
-    def __del__(self):
-        pass
 
-    def select_db(self):
+    def select_db(self,sqlstring):
         pass
+        sqlstring = 'select * from userinfo'
+        self.coursor.execute(sqlstring)
+        dd = self.coursor.fetchall()
 
-    def execute_db(self):
-        pass
+    def updata(self):
+
+        sqlstring = 'insert into tablename (id,age) values(1,2) '
+        try:
+            self.coursor.execute(sqlstring)
+            self.db.commit()
+        except:
+            self.db.rollback()
+
+
+
+    def close_db(self):
+        self.db.close()
 
 

@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a0f191a-d02e-4d6a-9ea9-1ce9c68a89ea" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2020-12-18-101056.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2020-12-18-111102.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2020-12-18-130102.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2020-12-18-150302.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2020-12-18-170502.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/tianqi_data.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flaskrestful/docker-compose.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other/fun_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testappium/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testappium/appiumcase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testappium/uiauto2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcast/tianqi_test.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2020-12-21-090913.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2020-12-21-090917.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2020-12-21-111102.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2020-12-21-130159.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2020-12-21-150302.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2020-12-21-150328.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api_keyd.py" afterPath="$PROJECT_DIR$/api/api_keyd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcast/apicase_test.py" afterPath="$PROJECT_DIR$/testcast/apicase_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.ini" afterPath="$PROJECT_DIR$/config/config.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskrestful/flask_rest.py" afterPath="$PROJECT_DIR$/flaskrestful/flask_rest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkin_package_py/ci_jenkins_py.py" afterPath="$PROJECT_DIR$/jenkin_package_py/ci_jenkins_py.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysqloper/sqloperate.py" afterPath="$PROJECT_DIR$/mysqloper/sqloperate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcast/flask_api_test.py" afterPath="$PROJECT_DIR$/testcast/flask_api_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,13 +34,16 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/autotest_code$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1607061291673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$runtest.coverage" NAME="runtest Coverage Results" MODIFIED="1608002128628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Run" />
+    <SUITE FILE_PATH="coverage/autotest_code$appiumcase.coverage" NAME="appiumcase Coverage Results" MODIFIED="1609319966001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testappium" />
     <SUITE FILE_PATH="coverage/autotest_code$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1606221795908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/email" />
+    <SUITE FILE_PATH="coverage/autotest_code$uiauto2.coverage" NAME="uiauto2 Coverage Results" MODIFIED="1609386396040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testappium" />
     <SUITE FILE_PATH="coverage/autotest_code$test_single.coverage" NAME="test_single Coverage Results" MODIFIED="1605944717923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_PomUnit_py.coverage" NAME="Unittests in PomUnit.py Coverage Results" MODIFIED="1607944188948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
-    <SUITE FILE_PATH="coverage/autotest_code$runtest__1_.coverage" NAME="runtest (1) Coverage Results" MODIFIED="1608535686929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/autotest_code$runtest__1_.coverage" NAME="runtest (1) Coverage Results" MODIFIED="1608630036798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/autotest_code$page.coverage" NAME="page Coverage Results" MODIFIED="1605599307179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
-    <SUITE FILE_PATH="coverage/autotest_code$ci_jenkins_py.coverage" NAME="ci_jenkins_py Coverage Results" MODIFIED="1608116085893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jenkin_package_py" />
+    <SUITE FILE_PATH="coverage/autotest_code$ci_jenkins_py.coverage" NAME="ci_jenkins_py Coverage Results" MODIFIED="1609147162198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jenkin_package_py" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_for_PomUnittest_pomunittest.coverage" NAME="Unittests for PomUnittest.pomunittest Coverage Results" MODIFIED="1605932195838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
+    <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_tianqi_test_py.coverage" NAME="Unittests in tianqi_test.py Coverage Results" MODIFIED="1609752004957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_mytest_py.coverage" NAME="Unittests in mytest.py Coverage Results" MODIFIED="1605852606137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_pomtestcase_py.coverage" NAME="Unittests in pomtestcase.py Coverage Results" MODIFIED="1607668071314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$opera_exl.coverage" NAME="opera_exl Coverage Results" MODIFIED="1607494575469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opera_excel" />
@@ -41,7 +57,8 @@
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_ApiCase_test_py.coverage" NAME="Unittests in ApiCase_test.py Coverage Results" MODIFIED="1608000370813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$searchpage.coverage" NAME="searchpage Coverage Results" MODIFIED="1607942899316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/autotest_code$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1605957637883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
-    <SUITE FILE_PATH="coverage/autotest_code$flask_rest.coverage" NAME="flask_rest Coverage Results" MODIFIED="1608196221906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskrestful" />
+    <SUITE FILE_PATH="coverage/autotest_code$fun_test.coverage" NAME="fun_test Coverage Results" MODIFIED="1609208702858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/other" />
+    <SUITE FILE_PATH="coverage/autotest_code$flask_rest.coverage" NAME="flask_rest Coverage Results" MODIFIED="1609730988061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskrestful" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_for_mytest_MyTestSuit.coverage" NAME="Unittests for mytest.MyTestSuit Coverage Results" MODIFIED="1605188591301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
     <SUITE FILE_PATH="coverage/autotest_code$Unittests_in_PomUnittest_py.coverage" NAME="Unittests in PomUnittest.py Coverage Results" MODIFIED="1605944943255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcast" />
   </component>
@@ -50,10 +67,10 @@
       <file leaf-file-name="flask_rest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flaskrestful/flask_rest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="e#247#259#0" expanded="true" />
+                <element signature="e#318#330#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,66 +79,38 @@
       <file leaf-file-name="flask_api_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcast/flask_api_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-143">
-              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-              <folding>
-                <element signature="e#252#267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqloperate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqloper/sqloperate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apicase_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcast/apicase_test.py">
+      <file leaf-file-name="fun_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/fun_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
-              <folding>
-                <element signature="e#244#270#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pomunit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcast/pomunit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="84" column="28" lean-forward="false" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
-              <folding>
-                <element signature="e#248#263#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runtest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/run/runtest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="858">
               <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="e#284#299#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pomtestcase_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcast/pomtestcase_test.py">
+      <file leaf-file-name="tianqi_data.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/tianqi_data.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+            <state relative-caret-position="374">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -130,21 +119,21 @@
       <file leaf-file-name="api_keyd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/api_keyd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-              <folding>
-                <element signature="e#245#265#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="490">
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userinfo.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/userinfo.yaml">
+      <file leaf-file-name="tianqi_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcast/tianqi_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="358">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="e#247#262#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,6 +151,9 @@
     <findStrings>
       <find>_outcome</find>
       <find>errors</find>
+      <find>app_start</find>
+      <find>init</find>
+      <find>text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,17 +194,23 @@
         <option value="$PROJECT_DIR$/testcast/pomtestcase_test.py" />
         <option value="$PROJECT_DIR$/testcast/pomunit.py" />
         <option value="$PROJECT_DIR$/log/mylog.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/run/runtest.py" />
         <option value="$PROJECT_DIR$/emailsend/send_email.py" />
-        <option value="$PROJECT_DIR$/jenkin_package_py/ci_jenkins_py.py" />
-        <option value="$PROJECT_DIR$/flaskrestful/flask_rest.py" />
-        <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/data/login_flask.yaml" />
-        <option value="$PROJECT_DIR$/testcast/flask_api_test.py" />
-        <option value="$PROJECT_DIR$/mysqloper/sqloperate.py" />
         <option value="$PROJECT_DIR$/testcast/apicase_test.py" />
         <option value="$PROJECT_DIR$/api/api_keyd.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mysqloper/sqloperate.py" />
+        <option value="$PROJECT_DIR$/jenkin_package_py/ci_jenkins_py.py" />
+        <option value="$PROJECT_DIR$/other/fun_test.py" />
+        <option value="$PROJECT_DIR$/testappium/appiumcase.py" />
+        <option value="$PROJECT_DIR$/flaskrestful/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/testappium/uiauto2.py" />
+        <option value="$PROJECT_DIR$/flaskrestful/flask_rest.py" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/testcast/flask_api_test.py" />
+        <option value="$PROJECT_DIR$/testcast/tianqi_test.py" />
+        <option value="$PROJECT_DIR$/data/tianqi_data.yaml" />
       </list>
     </option>
   </component>
@@ -275,6 +273,16 @@
             <path>
               <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="autotest_code" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest_code" type="462c0819:PsiDirectoryNode" />
+              <item name="baseobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest_code" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,12 +308,27 @@
             <path>
               <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="autotest_code" type="462c0819:PsiDirectoryNode" />
+              <item name="opera_excel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest_code" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest_code" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="autotest_code" type="462c0819:PsiDirectoryNode" />
               <item name="run" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest_code" type="462c0819:PsiDirectoryNode" />
+              <item name="testappium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="autotest_code" type="b2602c69:ProjectViewProjectNode" />
@@ -337,8 +360,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runtest (1)">
-    <configuration name="Unittests in apicase_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in tianqi_test.py">
+    <configuration name="Unittests in tianqi_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -350,37 +373,7 @@
       <module name="autotest_code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcast/apicase_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in flask_api_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcast" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="autotest_code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcast/flask_api_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in pomtestcase_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcast" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="autotest_code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcast/pomtestcase_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcast/tianqi_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unnamed (1)" type="PythonConfigurationType" factoryName="Python">
@@ -560,6 +553,24 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="appiumcase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testappium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="autotest_code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testappium/appiumcase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="flask_rest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -578,20 +589,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="runtest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fun_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="autotest_code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run/runtest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/fun_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="uiauto2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testappium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="autotest_code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testappium/uiauto2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -599,19 +628,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Python.Unnamed (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.runtest (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.flask_rest" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in flask_api_test.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in apicase_test.py" />
-      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests in pomtestcase_test.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.flask_rest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.fun_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.appiumcase" />
+      <item index="5" class="java.lang.String" itemvalue="Python.uiauto2" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests in tianqi_test.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.runtest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in pomtestcase_test.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in flask_api_test.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in apicase_test.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.flask_rest" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in tianqi_test.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python.flask_rest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.uiauto2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.appiumcase" />
+        <item index="4" class="java.lang.String" itemvalue="Python.fun_test" />
       </list>
     </recent_temporary>
   </component>
@@ -808,21 +837,6 @@
     <history-entry file="Unittests_in_apicase_test_py - 2020.12.21 at 15h 18m 55s.xml">
       <configuration name="Unittests in apicase_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_flask_api_test_py - 2020.12.18 at 09h 46m 56s.xml">
-      <configuration name="Unittests in flask_api_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_flask_api_test_py - 2020.12.18 at 09h 51m 15s.xml">
-      <configuration name="Unittests in flask_api_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_flask_api_test_py - 2020.12.18 at 09h 52m 26s.xml">
-      <configuration name="Unittests in flask_api_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_flask_api_test_py - 2020.12.18 at 10h 00m 26s.xml">
-      <configuration name="Unittests in flask_api_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_flask_api_test_py - 2020.12.18 at 10h 02m 55s.xml">
-      <configuration name="Unittests in flask_api_test.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_flask_api_test_py - 2020.12.18 at 11h 41m 02s.xml">
       <configuration name="Unittests in flask_api_test.py" configurationId="tests" />
     </history-entry>
@@ -835,33 +849,69 @@
     <history-entry file="Unittests_in_pomtestcase_test_py - 2020.12.21 at 15h 21m 02s.xml">
       <configuration name="Unittests in pomtestcase_test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_tianqi_test_py - 2021.01.04 at 16h 21m 31s.xml">
+      <configuration name="Unittests in tianqi_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tianqi_test_py - 2021.01.04 at 17h 00m 19s.xml">
+      <configuration name="Unittests in tianqi_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tianqi_test_py - 2021.01.04 at 17h 01m 03s.xml">
+      <configuration name="Unittests in tianqi_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tianqi_test_py - 2021.01.04 at 17h 03m 37s.xml">
+      <configuration name="Unittests in tianqi_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tianqi_test_py - 2021.01.04 at 17h 20m 07s.xml">
+      <configuration name="Unittests in tianqi_test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20708154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3540724" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20708154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Anonymous Apex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3540724" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20708154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SOQL Query" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Log Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -924,46 +974,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/新建文本文档.txt" />
-    <entry file="file://$PROJECT_DIR$/opera_excel/opera_exl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Run/报告.html" />
-    <entry file="file://$PROJECT_DIR$/img/xxx2.png" />
-    <entry file="file://$PROJECT_DIR$/img/2020-12-14-160429.png" />
-    <entry file="file://$PROJECT_DIR$/Page/loginpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#245#285#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/2020-12-14-160448.png" />
-    <entry file="file://$PROJECT_DIR$/img/2020-12-14-170502.png" />
-    <entry file="file://$PROJECT_DIR$/img/2020-12-14-170557.png" />
-    <entry file="file://$PROJECT_DIR$/img/2020-12-14-170549.png" />
-    <entry file="file://$PROJECT_DIR$/img/2020-12-14-18061055.png" />
-    <entry file="file://$PROJECT_DIR$/img/2020-12-14-180600.png" />
-    <entry file="file://$PROJECT_DIR$/img/2020-12-14-18061117.png" />
-    <entry file="file://$PROJECT_DIR$/data/weather_data.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/2020-12-14-18065721.png" />
     <entry file="file://$PROJECT_DIR$/img/2020-12-14-18065736.png" />
     <entry file="file://$PROJECT_DIR$/img/2020-12-14-19070057.png" />
@@ -1026,32 +1041,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git操作.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logdata/2020-12-15-11-11-55.log" />
     <entry file="file://$PROJECT_DIR$/logdata/2020-12-15-11-11-56.log" />
-    <entry file="file://$PROJECT_DIR$/baseobject/basePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#241#263#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Page/indexpage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1071,13 +1062,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/report/2020-12-16-190702.html" />
-    <entry file="file://$PROJECT_DIR$/jenkin_package_py/ci_jenkins_py.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logdata/2020-12-17-15-03.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1096,14 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,30 +1107,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskrestful/flask_rest.py">
+    <entry file="file://$PROJECT_DIR$/version.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-          <folding>
-            <element signature="e#247#259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysqloper/sqloperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcast/flask_api_test.py">
+    <entry file="file://$PROJECT_DIR$/testcast/pomunit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="468">
+          <caret line="84" column="28" lean-forward="false" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
           <folding>
-            <element signature="e#252#267#0" expanded="true" />
+            <element signature="e#248#263#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1167,11 +1133,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testcast/apicase_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="89" column="30" lean-forward="false" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+          <folding>
+            <element signature="e#244#270#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git操作.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqloper/sqloperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <marker date="1609137579103" expanded="true" signature="473:495" ph="select * fro... userinfo" />
+            <marker date="1609137579103" expanded="true" signature="619:661" ph="insert into tablename... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baseobject/basePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcast/pomtestcase_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        <state relative-caret-position="412">
+          <caret line="81" column="15" lean-forward="false" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opera_excel/opera_exl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#256#290#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/appium/webdriver/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="154" column="17" lean-forward="false" selection-start-line="154" selection-start-column="17" selection-end-line="154" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/logzero/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="99" column="4" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/uiautomator2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#30#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/uiautomator2/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1782">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/uiautomator2/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-880">
+          <caret line="65" column="47" lean-forward="true" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+          <folding>
+            <element signature="e#19#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/uiautomator2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="1134" column="21" lean-forward="false" selection-start-line="1134" selection-start-column="21" selection-end-line="1134" selection-end-column="21" />
+          <folding>
+            <element signature="e#6105#7447#0" expanded="false" />
+            <element signature="e#7481#27782#0" expanded="false" />
+            <element signature="e#52171#55399#0" expanded="false" />
+            <element signature="e#55431#59121#0" expanded="false" />
+            <element signature="e#59148#61535#0" expanded="false" />
+            <element signature="e#61753#62168#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkin_package_py/ci_jenkins_py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/runtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#284#299#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,42 +1281,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcast/pomunit.py">
+    <entry file="file://$PROJECT_DIR$/flaskrestful/docker-compose.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="84" column="28" lean-forward="false" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testappium/appiumcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testappium/uiauto2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="91" column="13" lean-forward="false" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
           <folding>
-            <element signature="e#248#263#0" expanded="true" />
+            <element signature="e#244#269#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcast/apicase_test.py">
+    <entry file="file://$PROJECT_DIR$/flaskrestful/flask_rest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#244#270#0" expanded="true" />
+            <element signature="e#318#330#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/api_keyd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <element signature="e#245#265#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="490">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run/runtest.py">
+    <entry file="file://$PROJECT_DIR$/other/fun_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="858">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcast/flask_api_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tianqi_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcast/tianqi_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
-            <element signature="e#284#299#0" expanded="true" />
+            <element signature="e#247#262#0" expanded="true" />
           </folding>
         </state>
       </provider>

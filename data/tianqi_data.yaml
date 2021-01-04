@@ -1,0 +1,19 @@
+-
+  param:
+    city: 深圳
+  text: 深圳
+-
+  param:
+    city: 西安
+  text: 西安
+-
+  param:
+    city: 闵行
+  text: 闵行
+
+-
+  param:
+    city: 大连
+  text: 青岛
+
+
