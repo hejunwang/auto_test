@@ -9,7 +9,7 @@
 @time: 2020/12/28 17:05
 @desc:
 '''
-
+import copy
 # 十六进制的转换 10进制
 def hex_to_dec(*args):
     print(list(args))
@@ -136,15 +136,18 @@ def  shuixianhua():
             sxh.append(i)
     print(sxh)
 
+    sxh2=[]
+    for i in range(1000,10001):
+        s = 0
+        m = list(str(i))
+        for j  in m:
+            s += int(j)**len(m)
 
-import datetime
-# 昨天日期
-def getYesterday():
-    today=datetime.date.today()
-    oneday=datetime.timedelta(days=1)
-    yesterday=today-oneday
-    return yesterday
+        if i ==s:
+            sxh2.append(i)
 
+    print('sxh2:')
+    print(sxh2)
 
 
 # 装饰器, 参数是函数 ,不会改变原来函数的功能 ,   闭包函数使用的是外部函数中的变量,延长了变量的声明周期
@@ -197,6 +200,59 @@ def list_opera():
     array2.sort()
     print(array2)
 
+    print('tuple')
+    str = '123sdfsdf'
+    print(tuple(str))
+
+    print('迭代,生成器')
+
+    it = iter(array)
+    for x in it:
+        print(x,end='')
+
+
+
+def dict1():
+    d = {"a":['Google', 'www.google.com'], 'Runoob': 'www.runoob.com', 'taobao': 'www.taobao.com'}
+    for key,value in d.items():
+        print(key,value)
+    print(str(d))
+    print(type(str(d)))
+
+#     浅拷贝
+    d1 = d.copy()
+    print(d1)
+
+    # 深拷贝
+    d2 = copy.deepcopy(d)
+    d['a'].append('www.baidu.com')
+    print('修改d')
+    print(d)
+    print('d1是否修改 ,如果修改 就是浅拷贝')
+    print(d1)
+
+    print('深拷贝未修改')
+    print(d2)
+
+
+
+
+total = 0  # 这是一个全局变量
+# 可写函数说明
+def sum_(arg1, arg2):
+    # 返回2个参数的和."
+    # total = arg1 + arg2  # total在这里是局部变量.
+    global  total
+    total = total+1
+    print("函数内是局部变量 : ", total)
+    return total
+
+print(total)
+
+
+
+
+
 
 if __name__ == '__main__':
     # res = hex_to_dec('0xa')
@@ -226,4 +282,18 @@ if __name__ == '__main__':
 
     shuixianhua()
 
-    print(getYesterday())
+    dict1()
+
+    # 调用sum函数
+    print(sum_(10, 20))
+
+    feibonaqi(100)
+
+    while True :
+        try:
+            print(next(feibonaqi(100)),end='')
+        except StopIteration:
+            import sys
+            sys.exit()
+
+

@@ -65,9 +65,23 @@ class PomUnit(unittest.TestCase):
     #     self.driver.get_screenshot_as_file(filename=filename)
 
     def test_1(self):
+        try:
+            Log().info('testing 中的测试日志打印 ')
+            self.assertEqual(1, 2, '我是个异常验证')
+        except Exception as e:
+            print('异常原因 :%s' % e)
+            currentPath = os.getcwd()  # 当前目录
+            parent_path = os.path.dirname(currentPath)  # 将当前目录传入得到当前目录的父目录
+            img_path = os.path.join(parent_path, 'image')
 
-        Log().info('testing 中的测试日志打印 ')
-        self.assertEqual(1, 2, '我是个异常验证')
+            current_time = time.strftime('%Y-%m-%d-%H%I%M%S', time.localtime(time.time()))
+            file_name = os.path.join(img_path, current_time + ".png")
+            print('filename-->{}'.format(file_name))
+            # 图片名称可以加个时间戳
+            # nowTime = time.strftime("%Y%m%d.%H.%M.%S")
+            # self.driver.get_screenshot_as_file('%s.jpg' % nowTime)
+            self.driver.get_screenshot_as_file(filename=file_name)
+            raise
 
 
 
@@ -76,15 +90,22 @@ class PomUnit(unittest.TestCase):
         print('这个case中引入了 无头页面显示')
         # 业务流程: 登录--> 应用切换-->发送邮件 -->接受邮件
         # 输入账户密码 # 登录确认
-        self.lp.login(kwargs['user'], kwargs['passwd'])
-        self.lp.wait_(kwargs['time_'])
-        Log().info('testing 中的测试日志打印 ')
-        # 登录后,应用切换
-        self.ip.index_all()
-        self.ip.wait_(kwargs['time_'])
+        try:
+            self.lp.login(kwargs['user'], kwargs['passwd'])
+            self.lp.wait_(kwargs['time_'])
+            Log().info('testing 中的测试日志打印 ')
+            # 登录后,应用切换
+            self.ip.index_all()
+            self.ip.wait_(kwargs['time_'])
 
-        print('无头页面模式也是可以正常的进行测试,我增加一点测试的异常看下')
-        self.assertEqual(1, 1, '我是个异常验证')
+            print('无头页面模式也是可以正常的进行测试,我增加一点测试的异常看下')
+            self.assertEqual(1, 1, '我是个异常验证')
+        except Exception as e:
+            print('异常原因 :%s' %e)
+            # 图片名称可以加个时间戳
+            nowTime = time.strftime("%Y%m%d.%H.%M.%S")
+            self.driver.get_screenshot_as_file('%s.jpg' % nowTime)
+            raise
 
 
 if __name__ == '__main__':

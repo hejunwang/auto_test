@@ -1,0 +1,51 @@
+c4dd864 HEAD@{0}: commit: commit . 的使用方法
+83743f9 HEAD@{1}: commit: v2.0 解决bug ,输入的格式有问题的已知bug
+4ed9a13 HEAD@{2}: commit: 优化代码
+5a46e3e HEAD@{3}: commit: 新增api接口测试,restful
+ec5b8ce HEAD@{4}: commit: 增加jenkins 执行的时间报错的问题,增加了编码格式,再run中添加绝对路径
+48ef656 HEAD@{5}: commit: 更新readme
+75e64e4 HEAD@{6}: commit: 按照命名规范
+f33297b HEAD@{7}: commit: all file
+20c6792 HEAD@{8}: commit: 代码中增加了log的打印
+5aee64e HEAD@{9}: commit: assert 验证
+b031077 HEAD@{10}: commit: 整体执行 ,发送邮件
+b01b205 HEAD@{11}: commit: POM设计模式企业级内部使用封装方式
+a49ac8d HEAD@{12}: commit: POM设计模式企业级内部使用封装方式
+dd401ba HEAD@{13}: commit: 解析json字段的内容
+e91c78d HEAD@{14}: commit: 添加校验
+e071ef4 HEAD@{15}: commit: 解析字典中的key
+8d1a199 HEAD@{16}: commit: 写数据到文件中
+1484d02 HEAD@{17}: commit: api 关键字的封装
+6dd2b53 HEAD@{18}: commit: excel 写入文件
+e832cbb HEAD@{19}: commit: readme文案
+c9ad97b HEAD@{20}: commit: 操作excel表格
+100dad2 HEAD@{21}: commit: 更新email-2
+1a4b3f6 HEAD@{22}: commit: 更新:
+3676cb1 HEAD@{23}: commit: main:
+e250f93 HEAD@{24}: checkout: moving from fenchi_dev to main
+175b6b3 HEAD@{25}: checkout: moving from main to fenchi_dev
+e250f93 HEAD@{26}: merge fenchi_dev: Merge made by the 'recursive' strategy.
+2f14f8d HEAD@{27}: checkout: moving from fenchi_dev to main
+175b6b3 HEAD@{28}: checkout: moving from main to fenchi_dev
+2f14f8d HEAD@{29}: checkout: moving from fenchi_dev to main
+175b6b3 HEAD@{30}: commit (merge): Merge remote-tracking branch 'origin/main' into fenchi_dev
+10f9e67 HEAD@{31}: commit: fenzhi:
+0395481 HEAD@{32}: checkout: moving from main to fenchi_dev
+2f14f8d HEAD@{33}: checkout: moving from fenchi_dev to main
+0395481 HEAD@{34}: checkout: moving from main to fenchi_dev
+2f14f8d HEAD@{35}: commit (merge): Merge branch 'fenchi_dev' into main
+ad389c9 HEAD@{36}: checkout: moving from fenchi_dev to main
+0395481 HEAD@{37}: checkout: moving from main to fenchi_dev
+ad389c9 HEAD@{38}: checkout: moving from fenchi_dev to main
+0395481 HEAD@{39}: commit: fenzhi:
+f266800 HEAD@{40}: checkout: moving from main to fenchi_dev
+ad389c9 HEAD@{41}: checkout: moving from fenchi_dev to main
+f266800 HEAD@{42}: commit: fenzhi_dev
+04406ae HEAD@{43}: checkout: moving from main to fenchi_dev
+ad389c9 HEAD@{44}: commit: main
+04406ae HEAD@{45}: checkout: moving from fenchi_dev to main
+04406ae HEAD@{46}: checkout: moving from main to fenchi_dev
+04406ae HEAD@{47}: commit: 修改page
+16ac076 HEAD@{48}: commit: pom设计模式
+69c1731 HEAD@{49}: commit: first commit
+806ae0a HEAD@{50}: clone: from https://github.com/hejunwang/auto_test.git

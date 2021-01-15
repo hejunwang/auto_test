@@ -1,0 +1,17 @@
+[
+  {
+	"description": "this is a text",
+	"request":
+	{	
+		"method": "post",
+		"forms": {"name": "foo"},
+		"uri": "/foo"
+		} ,
+    "response" :
+      {
+        "text" : "Hello, foo request"
+		
+      }
+	}
+  
+]

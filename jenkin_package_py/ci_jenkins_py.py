@@ -84,17 +84,48 @@ def hex_to_dec(value):
     return int(value,16)
 
 
+
+# 9*9乘法表
+def jiujiuchengfabiao():
+    for i in range(1,10):
+        for j in range(1,i+1):
+            print("i*j=%d *%d " %(i,j),end='')
+            if j ==i:
+                print('\n')
+
+
+
+# 冒泡排序算法
+def maopao(arr):
+
+    for i in range(len(arr)):
+
+        for j in range(len(arr)-1-i):
+
+            if arr[j]>arr[j+1]:
+                arr[j],arr[j+1] = arr[j+1],arr[j]
+
+    print(arr)
+    for i in range(len(arr)):
+        print('arr: %d' %arr[i])
+
+
+
 if __name__ == '__main__':
     # ff = fun1_1(2)
     # ff()
 
-    of = outter_fun(_fun)
-    of()
+    # of = outter_fun(_fun)
+    # of()
+    #
+    # b = hex_to_dec("0xB")
+    #
+    # print(b)
+    #
+    # a= int("0xA",16)
+    # print(a)
 
-    b = hex_to_dec("0xB")
-
-    print(b)
-
-    a= int("0xA",16)
-    print(a)
+    jiujiuchengfabiao()
+    arr = [1,4,2,5,3,1,2]
+    maopao(arr)
 

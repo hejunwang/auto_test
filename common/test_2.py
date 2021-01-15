@@ -33,6 +33,7 @@ def maopao(arr):
             if arr[j]>arr[j+1]:
                 arr[j],arr[j+1] = arr[j+1],arr[j]
 
+    print('冒泡后的数组')
     print(arr)
 
 #  n m   5*4*3*2*1  #阶乘
@@ -60,8 +61,8 @@ def feibnaq(m):
     fbn=[]
     while b<m:
         a,b = b,a+b
-        fbn.append(a)
-
+        fbn.append(b)
+    print('斐波那契数列:')
     print(fbn)
 
 # 素数（prime number）又称质数 除了1和它本身以外不再被其他的除数整除。
@@ -75,7 +76,8 @@ def sushu(n,m):
                     break
             else:
                 ss.append(num)
-
+    
+    print('素数:')
     print(ss)
 
 

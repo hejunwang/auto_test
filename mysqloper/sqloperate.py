@@ -35,7 +35,6 @@ class MySql_DB:
             self.db.rollback()
 
 
-
     def close_db(self):
         self.db.close()
 

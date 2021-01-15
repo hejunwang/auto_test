@@ -33,14 +33,13 @@ class Log(object):
 
     def __init__(self):
 
-
         folder_or_dir = log_dir
         if not os.path.exists(folder_or_dir):
             print("folder or dir not exist !!!!!!")
             os.makedirs(folder_or_dir)  # 创建目录或文件夹
 
         # 文件命名   os.path.join()：  将多个路径组合后返回
-        self.logname = os.path.join(log_dir, '%s.log' % time.strftime('%Y-%m-%d-%H-%I'))
+        self.logname = os.path.join(log_dir, '%s.log' % time.strftime('%Y-%m-%d'))
         # 生成记录器对象
         self.logger = logging.getLogger()
         # 设置日志级别
