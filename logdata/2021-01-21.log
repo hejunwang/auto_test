@@ -1,0 +1,41 @@
+[2021-01-21 18:28:43,933]|INFO  : setUpClass
+[2021-01-21 18:28:43,935]|INFO  : test_1_one start
+[2021-01-21 18:28:44,077]|INFO  : test_1_one start
+[2021-01-21 18:28:44,101]|INFO  : test_1_one start
+[2021-01-21 18:28:44,155]|INFO  : test_1_one start
+[2021-01-21 18:28:44,200]|INFO  : test_1_one start
+[2021-01-21 18:28:44,298]|INFO  : test_1_one start
+[2021-01-21 18:28:44,325]|INFO  : test_1_one start
+[2021-01-21 18:28:44,355]|INFO  : test_1_one start
+[2021-01-21 18:28:44,383]|INFO  : test_1_one start
+[2021-01-21 18:28:44,407]|INFO  : test_1_one start
+[2021-01-21 18:28:44,436]|INFO  : test_1_one start
+[2021-01-21 18:28:44,474]|INFO  : test_1_one start
+[2021-01-21 18:28:44,509]|INFO  : test_1_one start
+[2021-01-21 18:28:44,532]|INFO  : test_1_one start
+[2021-01-21 18:28:44,559]|INFO  : test_1_one start
+[2021-01-21 18:28:44,590]|INFO  : test_1_one start
+[2021-01-21 18:28:44,608]|INFO  : test_1_one start
+[2021-01-21 18:28:44,636]|INFO  : test_1_one start
+[2021-01-21 18:28:44,675]|INFO  : test_1_one start
+[2021-01-21 18:28:44,702]|INFO  : test_1_one start
+[2021-01-21 18:28:44,732]|INFO  : test_1_one start
+[2021-01-21 18:28:44,756]|INFO  : test_1_one start
+[2021-01-21 18:28:44,776]|INFO  : test_1_one start
+[2021-01-21 18:28:44,801]|INFO  : test_1_one start
+[2021-01-21 18:28:44,819]|DEBUG : this is test 3
+[2021-01-21 18:28:59,126]|INFO  :  PomUnit  setUpClass
+[2021-01-21 18:29:14,728]|INFO  : PomUnit  testing 中的测试日志打印 
+[2021-01-21 18:29:39,983]|INFO  : testing 中的测试日志打印 
+[2021-01-21 18:29:52,012]|INFO  : 无头页面模式也是可以正常的进行测试,我增加一点测试的异常看下
+[2021-01-21 18:29:52,016]|INFO  : testing 异常情况下,调用save_img函数 
+[2021-01-21 18:29:52,021]|INFO  : tearDownClass
+[2021-01-21 18:29:55,285]|INFO  : TIANQI_API setup class
+[2021-01-21 18:29:55,290]|DEBUG : ddt 数据传入 ,测试数据和代码分离 进行测试
+[2021-01-21 18:29:55,292]|DEBUG : 执行测试
+[2021-01-21 18:29:55,640]|DEBUG : ddt 数据传入 ,测试数据和代码分离 进行测试
+[2021-01-21 18:29:55,641]|DEBUG : 执行测试
+[2021-01-21 18:29:55,919]|DEBUG : ddt 数据传入 ,测试数据和代码分离 进行测试
+[2021-01-21 18:29:55,921]|DEBUG : 执行测试
+[2021-01-21 18:29:56,667]|DEBUG : ddt 数据传入 ,测试数据和代码分离 进行测试
+[2021-01-21 18:29:56,669]|DEBUG : 执行测试

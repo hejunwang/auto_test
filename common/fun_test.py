@@ -249,12 +249,25 @@ def sum_(arg1, arg2):
 
 print(total)
 
+import pywifi,time
+
+def wifi_scan():
+    wifi = pywifi.PyWiFi()
+    iface = wifi.interfaces()[0]
+    iface.scan()
+    time.sleep(1)
+    basewifi = iface.scan_result()
+    for i in basewifi:
+        print('wifi扫苗结果:{}'.format(i.ssid))  # ssid 为wifi名称
+        print('wifi设备MAC地址:{}'.format(i.bssid))
+    return basewifi
 
 
 
 
 
 if __name__ == '__main__':
+    wifi_scan()
     # res = hex_to_dec('0xa')
     # print(res)
 
@@ -287,13 +300,6 @@ if __name__ == '__main__':
     # 调用sum函数
     print(sum_(10, 20))
 
-    feibonaqi(100)
 
-    while True :
-        try:
-            print(next(feibonaqi(100)),end='')
-        except StopIteration:
-            import sys
-            sys.exit()
 
 

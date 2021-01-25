@@ -15,7 +15,6 @@ import os
 import time
 import threading
 
-# log_dir = os.path.dirname(os.path.dirname(__file__)) + '/logdata/'
 log_dir = os.path.abspath(os.path.dirname(os.getcwd()))+"\logdata"
 import logging
 
